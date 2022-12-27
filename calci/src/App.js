@@ -28,6 +28,7 @@ export default function App() {
     setCount("0");
   }
 
+
   function multiply() {
     if (result === 0) {
       setResult(Number(count));
@@ -36,6 +37,7 @@ export default function App() {
     }
     setCount("0");
   }
+
 
   function divide() {
     if (result === 0) {
@@ -46,6 +48,7 @@ export default function App() {
     setCount("0");
   }
 
+  
   function reset() {
     setResult(0);
     setCount("0");
