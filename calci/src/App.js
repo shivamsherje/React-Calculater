@@ -87,7 +87,7 @@ export default function App() {
         <button onClick={multiply}>*</button>
         <button onClick={divide}>/</button>
       </div>
-      
+
       <footer>
         <p>
           Coded by 
@@ -100,6 +100,7 @@ export default function App() {
           </a>
         </p>
       </footer>
+      
     </div>
   );
 }
