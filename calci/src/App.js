@@ -99,8 +99,7 @@ export default function App() {
             shivam_sherje
           </a>
         </p>
-      </footer>
-      
+      </footer>    
     </div>
   );
 }
