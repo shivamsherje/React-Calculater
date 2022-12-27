@@ -48,7 +48,7 @@ export default function App() {
     setCount("0");
   }
 
-  
+
   function reset() {
     setResult(0);
     setCount("0");
@@ -62,6 +62,7 @@ export default function App() {
     }
   }
 
+
   return (
     <div className="App">
       <h1 className="title">React Calculator</h1>
@@ -70,6 +71,7 @@ export default function App() {
           <h1>{count === "0" ? result : count}</h1>
         </div>
       </div>
+      
 
       <div className="flex">
         <div className="buttons btn-style">
