@@ -71,8 +71,7 @@ export default function App() {
           <h1>{count === "0" ? result : count}</h1>
         </div>
       </div>
-      
-
+    
       <div className="flex">
         <div className="buttons btn-style">
           {buttonList}
